@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Liste">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/buttonListele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="USERS" />
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="364dp"
+            android:paddingLeft="20dp"
+            android:text="ID" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="20dp"
+            android:text="AD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="92dp"
+            android:paddingLeft="40dp"
+            android:text="TCKN" />
+
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listview_id"
+        android:layout_width="48dp"
+        android:layout_height="663dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/listview_ad"
+        android:layout_width="163dp"
+        android:layout_height="662dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp"
+        android:paddingLeft="36dp">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/listview_tc"
+        android:layout_width="wrap_content"
+        android:layout_height="660dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="193dp"
+        android:paddingLeft="36dp"></ListView>
+</RelativeLayout>
+
+</LinearLayout>
